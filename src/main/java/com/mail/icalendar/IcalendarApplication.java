@@ -17,13 +17,13 @@ public class IcalendarApplication {
 
     public static void main(String[] args) throws Exception {
         // 发件人账号
-        String account = "2850934569@qq.com";
-        String password = "finshcftzanzdfgf";
+        String account = "";
+        String password = "";
         String host = "smtp.qq.com";
         Integer port = 465;
 
         // 收件人账号
-        String to = "2638408859@qq.com";
+        String to = "";
 
         Session session = getSession();
         SMTPTransport transport = (SMTPTransport) session.getTransport("smtps");
